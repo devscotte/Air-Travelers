@@ -8,24 +8,15 @@ As stated in the beginning, the data was collected from tsa.gov, ourworldindata.
 
 ## EDA
 
+# Travelers 2020 vs Travelers 2019
+
 ![png](output_49_1.png)
 
 
-As we can clearly see, the numbers for 2020 have been significantly smaller than from 2019
+As we can clearly see, the number for 2020 Travelers have been significantly smaller than from 2019
 
 
-```python
-#Graph travelers 2020 vs cases
-sns.lmplot(x = 'Travelers 2020', y = 'Cases', data = main_df)
-```
-
-
-
-
-    <seaborn.axisgrid.FacetGrid at 0x177d40e7c08>
-
-
-
+# Travelers 2020 vs Cases
 
 ![png](output_51_1.png)
 
@@ -33,58 +24,17 @@ sns.lmplot(x = 'Travelers 2020', y = 'Cases', data = main_df)
 Very interesting shape to this...  
 
 
-```python
-#Plot line graph of number of cases
-sns.relplot(x = 'Date', y = 'Cases', kind = 'line', data = main_df)
-```
-
-
-
-
-    <seaborn.axisgrid.FacetGrid at 0x177d0f100c8>
-
-
-
+# Number of Cases for United States in 2020
 
 ![png](output_53_1.png)
 
 
-
-```python
-#Plot count of days with masks vs no masks
-sns.countplot(x = 'Masks', data = main_df)
-```
-
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x177d2123988>
-
-
-
+# Number of days within time range with and without mask recommendations
 
 ![png](output_54_1.png)
 
 
-
-```python
-#Plot number of travelers vs number of cases
-plt.figure(figsize=(10,6))
-plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
-plt.gca().xaxis.set_major_locator(mdates.DayLocator(interval=5))
-plt.plot('Date', 'Travelers 2020', data = main_df, label = 'Travelers')
-plt.plot('Date', 'Cases', data = main_df, label = 'Cases')
-
-plt.legend()
-```
-
-
-
-
-    <matplotlib.legend.Legend at 0x177d901ac88>
-
-
-
+# Number of Travelers vs Number of Cases United States 2020
 
 ![png](output_55_1.png)
 
