@@ -41,7 +41,7 @@ Very interesting shape to this...
 
 ## Models
 
-We fit our data to different machine learning models. We fit the data to a linear, KNN, ridge, and decision tree model. We ran MAE, MSE, RMSE, and CV scores as our metrics to determine which model had the highest predictive power.
+We fit our data to different machine learning models. We fit the data to a linear, KNN, ridge, and decision tree model. We chose these models as these are good models to use when trying to predict a quantitative variable. We ran MAE, MSE, RMSE, and CV scores as our metrics to determine which model had the highest predictive power.
 
 ### Linear Regression
 
