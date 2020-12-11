@@ -8,7 +8,7 @@ As stated in the beginning, the data was collected from tsa.gov, ourworldindata.
 
 ## EDA
 
-# Travelers 2020 vs Travelers 2019
+### Travelers 2020 vs Travelers 2019
 
 ![png](output_49_1.png)
 
@@ -16,7 +16,7 @@ As stated in the beginning, the data was collected from tsa.gov, ourworldindata.
 As we can clearly see, the number for 2020 Travelers have been significantly smaller than from 2019
 
 
-# Travelers 2020 vs Cases
+### Travelers 2020 vs Cases
 
 ![png](output_51_1.png)
 
@@ -24,17 +24,17 @@ As we can clearly see, the number for 2020 Travelers have been significantly sma
 Very interesting shape to this...  
 
 
-# Number of Cases for United States in 2020
+### Number of Cases for United States in 2020
 
 ![png](output_53_1.png)
 
 
-# Number of days within time range with and without mask recommendations
+### Number of days within time range with and without mask recommendations
 
 ![png](output_54_1.png)
 
 
-# Number of Travelers vs Number of Cases United States 2020
+### Number of Travelers vs Number of Cases United States 2020
 
 ![png](output_55_1.png)
 
