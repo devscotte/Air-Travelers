@@ -52,9 +52,13 @@ We fit our data to different machine learning models. We fit the data to a linea
 ### Linear Regression scores
 
 MAE: 209582.34029446437
+
 MSE: 89312463686.86139
+
 RMSE: 298851.9092909754
+
 R^2:  0.5075655165151798
+
 Cross validation score:  279372589873.1498
     
 With a RMSE of 298851 and CV score of 279372589873.1498, I would say that this model isn't the best for predicting the number of airplane travelers in 2020, but 2020 has been hard for anyone to predict so it's not the worst thing to come from 2020.
