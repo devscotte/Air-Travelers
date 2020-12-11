@@ -73,8 +73,11 @@ At least the residuals look normal? That's good? Our data really isn't that line
 ## KNN
 
 MAE: 317331.5046511628
+
 MSE: 198213011157.18558
+
 RMSE: 445211.19837351976
+
 Cross validation score: 230145124472.75333
 
 Well, this model did not do any better at predicting with accuracy the amount of travelers flying on a given day in 2020 since the RMSE is much higher than that of the lm model. Let's try to find a proper amount of K with GridSearch.
@@ -83,9 +86,13 @@ Well, this model did not do any better at predicting with accuracy the amount of
 ## Ridge
 
 MAE: 211176.6644662734
+
 MSE: 90417914812.4394
+
 RMSE: 300695.7179815493
+
 R^2:  0.5014704853003841
+
 Cross validation score:  289037063937.7112
 
 Comparing this model's RMSE and CV score to that of Linear regression and KNN, it is the middle man. It performed slightly worse than the Linear regression model and better than the KNN model.
@@ -94,9 +101,13 @@ Comparing this model's RMSE and CV score to that of Linear regression and KNN, i
 ## Decision Tree Regressor
 
 MAE: 213498.91860465117
+
 MSE: 158967825632.52325
+
 RMSE: 398707.6944736874
+
 R^2:  0.12351271172499989
+
 Cross validation score:  233772587653.33438      
 
 From the decision tree scores, it would be in 3rd in for in ranking our ML methods by predictive power.
